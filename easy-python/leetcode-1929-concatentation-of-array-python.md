@@ -11,6 +11,7 @@ Return the array ans.
 ```python
 def get_concatentation(nums):
     res = []
+
     for concat in range(2):
         for num in nums:
             res.append(num)
